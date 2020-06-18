@@ -19,7 +19,9 @@ class _SignInState extends State<SignIn> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold( backgroundColor: Colors.white,
+    return Scaffold(
+      key:_scaffoldkey,
+       backgroundColor: Colors.white,
       body:WillPopScope(
         
       onWillPop:()
@@ -185,7 +187,7 @@ class _SignInState extends State<SignIn> {
                   ],
                 ),
                 SizedBox(
-                  height: MediaQuery.of(context).size.height/10,
+                  height: MediaQuery.of(context).size.height/25,
                 ),
                   ],
                 ),

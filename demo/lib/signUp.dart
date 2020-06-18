@@ -184,7 +184,7 @@ class _SignUpState extends State<SignUp> {
                     FlatButton(
                       child: Image.asset('images/fb.png'),
                       onPressed: () {
-                        callSnackBar("Clicked to login with FB");
+                        callSnackBar("Clicked to Sign Up with FB");
                       },
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular( 40)),
@@ -193,7 +193,7 @@ class _SignUpState extends State<SignUp> {
                       child: Image.asset('images/insta.png'),
                       onPressed: () {
                         
-                        callSnackBar("Clicked to login with Insta");
+                        callSnackBar("Clicked to Sign Up with Insta");
                       },
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular( 40)),
@@ -202,7 +202,7 @@ class _SignUpState extends State<SignUp> {
                       child: Image.asset('images/gplus.png'),
                       onPressed: () {
                         
-                        callSnackBar("Clicked to login with Goolge");
+                        callSnackBar("Clicked to Sign Up with Goolge");
                       },
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular( 40)),
@@ -234,7 +234,7 @@ class _SignUpState extends State<SignUp> {
                   ],
                 ),
                  SizedBox(
-                  height: MediaQuery.of(context).size.height/10,
+                  height: MediaQuery.of(context).size.height/25,
                 ),
                   ],
                 ),
