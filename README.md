@@ -1,2 +1,2 @@
-# TaskByErrorTehc
+# TaskByErrorTech
 Small Task
